@@ -5,9 +5,8 @@ def gitdownload(repo)
 
 def buildArtifact()
 {
-sh 'mvn package'
+  sh "mvn package"
 }
-def deploy("job name","ip_address","context path")
-{
 
-}
+
+
